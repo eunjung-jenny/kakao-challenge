@@ -1,0 +1,38 @@
+.nav {
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #fcfcfc;
+    border-top: 1px solid #f7f7f7;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav__list i {
+    position: relative;
+}
+
+.nav__badge {
+    color: white;
+    font-size: 8px;
+    width: 12px;
+    height: 12px;
+    background-color: #dc5d46;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -2px;
+    right: -4px;
+}
+
+/* 스크롤해도 머물러 있도록
