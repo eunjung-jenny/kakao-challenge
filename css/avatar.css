@@ -9,3 +9,7 @@
     width: 60px;
     height: 60px;
 }
+
+.chats-screen .message__avatar {
+    border: none;
+}
