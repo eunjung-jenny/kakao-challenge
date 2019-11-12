@@ -5,6 +5,36 @@
     border: 2px solid white;
 }
 
+.chats .chat__avatar-container {
+    width: 45px;
+    height: 45px;
+    border-radius: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.chats__chat:nth-child(2) img {
+    width: 65%;
+    height: 65%;
+}
+
+.chats__chat:nth-child(2) img:first-child {
+    position: absolute;   
+    top: 0;
+    left: 0;
+}
+
+    position: absolute;   
+    bottom: 0;
+    right: 0;
+}
+
+.chats__chat:last-of-type img {
+    width: 50%;
+    height: 50%;
+}
+
 .friend--lg .g-avatar {
     width: 60px;
     height: 60px;
@@ -13,3 +43,4 @@
 .chats-screen .message__avatar {
     border: none;
 }
+
