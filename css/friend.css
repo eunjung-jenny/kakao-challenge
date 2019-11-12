@@ -25,11 +25,43 @@
     font-size: 15px;
 }
 
-.friend__content .friend__status, .friend__content .friend__preview, .friend__content .friend__mail {
+.friend__content .friend__preview,
+.friend__content .friend__mail {
     font-size: 12px;
     opacity: .7;
 }
 
-.friend__content .friend__status {
+.friend__content .friend__status, 
+.friend  .friend__timestamp,
+.friend .friend__now-listening {
     font-size: 10px;
+    opacity: .7;
+}
+
+.friend .friend__now-listening {
+    border: 1px solid rgb(54, 183, 54);
+    border-radius: 10px;
+    padding: 3px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.friend .friend__now-listening i {
+    color: rgb(54, 183, 54);
+    margin-left: 5px;
+}
+
+.friend .friend__add-btn {
+    font-size: 10px;
+    background-color: rgb(235, 235, 235);
+    padding: 8px 11px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more .friend__column i {
+    font-size: 26px;
 }
