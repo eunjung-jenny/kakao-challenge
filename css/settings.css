@@ -1,0 +1,16 @@
+.settings .settings__sections {
+    border-top: 1px solid #f7f7f7;
+    padding: 15px 0px;
+}
+
+.settings__setting {
+    padding: 15px 0px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.settings__setting i {
+    width: 20px;
+    margin-right: 15px;
+}

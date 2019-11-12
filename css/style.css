@@ -5,6 +5,8 @@
 @import "header.css";
 @import "nav.css";
 
+@import "settings.css";
+
 * {
     box-sizing: border-box;
 }
