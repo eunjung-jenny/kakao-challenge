@@ -35,4 +35,18 @@
     right: -4px;
 }
 
+@keyframes showNavBar {
+    from{
+        transform: translateY(80px);
+    }
+    to{
+        transform: none;
+    }
+}
+
+.nav {
+    transform: translateY(80px);
+    animation: showNavBar .5s forwards;
+    animation-delay: .5s;
+}
 /* 스크롤해도 머물러 있도록
