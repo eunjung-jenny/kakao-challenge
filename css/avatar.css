@@ -25,6 +25,7 @@
     left: 0;
 }
 
+.chats__chat:nth-child(2) img:last-child {
     position: absolute;   
     bottom: 0;
     right: 0;
